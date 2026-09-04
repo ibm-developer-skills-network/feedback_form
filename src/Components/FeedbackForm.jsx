@@ -68,6 +68,7 @@ const FeedbackForm = () => {
         <textarea
           name="feedback"
           placeholder="Your Feedback"
+          maxlength="500"
           value={formData.feedback}
           onChange={handleChange}
         ></textarea>
